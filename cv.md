@@ -31,3 +31,10 @@ I aspire to become a front-end developer and will do my best to achieve this. Pa
     return [pos, neg]
  }
 ```
+
+# **Education**
+
+1. BSUIR, Faculty of Computer-Aided Design, engineer - programmer
+2. HTML, CSS - Udemy and YouTube courses
+3. JS - [learn.javascript.ru](https://learn.javascript.ru/)
+4. RS Schools Course «JavaScript/Front-end. Stage 0»
