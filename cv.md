@@ -38,3 +38,7 @@ I aspire to become a front-end developer and will do my best to achieve this. Pa
 2. HTML, CSS - Udemy and YouTube courses
 3. JS - [learn.javascript.ru](https://learn.javascript.ru/)
 4. RS Schools Course «JavaScript/Front-end. Stage 0»
+
+# **English skill**
+
+Intermediate. Сurrently I'm studying with the help of _'Solutions Intermediate'_
