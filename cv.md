@@ -10,3 +10,24 @@
 # **About me**
 
 I aspire to become a front-end developer and will do my best to achieve this. Passionate about technology, computer science. Constantly learning.
+
+# **My skills**
+
+- HTML
+- CSS
+- JavaScript
+- Git
+
+# **Code example**
+
+```
+  function countPositivesSumNegatives(input) {
+  let pos = 0;
+  let neg = 0;
+  if (input == null || input.length === 0 || input === [0, 0]) {
+    return [ ]
+  }
+  input.forEach(el=>(el > 0) ? pos++ : neg = neg + el)
+    return [pos, neg]
+ }
+```
