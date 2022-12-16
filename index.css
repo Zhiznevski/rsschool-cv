@@ -24,7 +24,9 @@ a {
   text-decoration: none;
   color: #010201;
 }
-
+a:hover {
+  color: rgb(94, 215, 29);
+}
 ul,
 ol,
 li {
@@ -47,8 +49,8 @@ h6 {
   margin: 0 auto;
 }
 /*---HEADER---------------------------------------------------------------*/
-.nav {
- 
+.header {
+  background: #9380AB;
 }
 .nav-list {
   display: flex;
@@ -56,71 +58,100 @@ h6 {
   align-items: center;
 }
 .nav-link {
+
   padding: 0 20px;
   line-height: 50px;
   transition: .3s;
-  color: #9380AB;
+  color: #fff;
   text-decoration: none;  
-  
 }
 .nav-link:hover {
-  color: #4d2323;
+  color: rgb(94, 215, 29);
 }
 .image {
   width: 300px;
   border-radius: 50%;
-
 }
 
 /*---MAIN-SECTION---------------------------------------------------------------*/
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .main-section {
+  width: 50%;
+  padding: 20px 5px;
   display: flex;
   justify-content: space-around;
   border-bottom: 5px solid #9380AB ;
 }
+
 .main-section__image {
   width: 300px;
   border-radius: 50%;
   
 }
-.main-section__name
+
 .main-section__main-title {
   display: block;
   font-size: 32px;
   border-bottom: 2px #9380AB solid;
-  padding-bottom: 5px;
-  margin-bottom: 20px;
+  
+  margin: 20px 0px;
 }
+
 .main-section__title {
   font-size: 24px;
 }
+
 /*---SECTIONS---------------------------------------------------------------*/
+
 section {
+  width: 50%;
   padding: 20px 5px;
   border-bottom: 5px solid #9380AB ;
 }
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+section:nth-child(7) {
+  border-bottom: none;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
 .section-title {
   font-size: 24px;
   margin: 20px 0px;
   
 }
-.section-list {
 
-}
 .section-item {
   margin: 20px;
   position: relative;
   /*---Contacts---------------------------------------------------------------*/
 }
+
 .contacts-item:nth-child(1):before {
   background-image: url(/images/contacts/envelope-square.svg)
 }
+
 .contacts-item:nth-child(2):before {
   background-image: url(/images/contacts/github-square.svg);
 }
+
 .contacts-item:nth-child(3):before {
   background-image: url(/images/contacts/phone-square-alt.svg)
 }
+
 .contacts-item:nth-child(4):before {
   background-image: url(/images/contacts/linkedin.svg)
 }
@@ -135,19 +166,25 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 /*---Skills---------------------------------------------------------------*/
+
 .skills-item:nth-child(1):before {
   background-image: url(/images/skills/html.svg)
 }
+
 .skills-item:nth-child(2):before {
   background-image: url(/images/skills/css.svg)
 }
+
 .skills-item:nth-child(3):before {
   background-image: url(/images/skills/js.svg)
 }
+
 .skills-item:nth-child(4):before {
   background-image: url(/images/skills/github.svg)
 }
+
 .skills-item:before {
   content: "";
   position: absolute;
@@ -159,19 +196,25 @@ section {
   background-repeat: no-repeat;
 
 }
+
 /*---Education---------------------------------------------------------------*/
+
 .education-item:nth-child(1):before{
   background-image: url(/images/education/bsuir.jpg)
 }
+
 .education-item:nth-child(2):before{
   background-image: url(/images/education/udemy.png)
 }
+
 .education-item:nth-child(3):before{
   background-image: url(/images/education/learnjs.png)
 }
+
 .education-item:nth-child(4):before{
   background-image: url(/images/education/rs-logo.jpg)
 }
+
 .education-item:before {
   content: "";
   position: absolute;
@@ -182,4 +225,25 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 /*---Footer---------------------------------------------------------------*/
+
+.footer {
+  background: #9380AB;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #9380AB;
+  padding: 10px;
+}
+
+.footer__data-year {
+  color:#fff; 
+}
+
+.footer__github-link {
+  color:#fff
+}
