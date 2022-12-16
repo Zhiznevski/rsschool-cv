@@ -48,15 +48,18 @@ h6 {
   max-width: 1440px;
   margin: 0 auto;
 }
+
 /*---HEADER---------------------------------------------------------------*/
 .header {
   background: #9380AB;
 }
+
 .nav-list {
   display: flex;
   justify-content: end;
   align-items: center;
 }
+
 .nav-link {
 
   padding: 0 20px;
@@ -65,6 +68,7 @@ h6 {
   color: #fff;
   text-decoration: none;  
 }
+
 .nav-link:hover {
   color: rgb(94, 215, 29);
 }
@@ -98,7 +102,6 @@ h6 {
   display: block;
   font-size: 32px;
   border-bottom: 2px #9380AB solid;
-  
   margin: 20px 0px;
 }
 
@@ -131,7 +134,6 @@ section:last-child {
 .section-title {
   font-size: 24px;
   margin: 20px 0px;
-  
 }
 
 .section-item {
@@ -141,19 +143,19 @@ section:last-child {
 }
 
 .contacts-item:nth-child(1):before {
-  background-image: url(/images/contacts/envelope-square.svg)
+  background-image: url(./images/contacts/envelope-square.svg)
 }
 
 .contacts-item:nth-child(2):before {
-  background-image: url(/images/contacts/github-square.svg);
+  background-image: url(./images/contacts/github-square.svg);
 }
 
 .contacts-item:nth-child(3):before {
-  background-image: url(/images/contacts/phone-square-alt.svg)
+  background-image: url(./images/contacts/phone-square-alt.svg)
 }
 
 .contacts-item:nth-child(4):before {
-  background-image: url(/images/contacts/linkedin.svg)
+  background-image: url(./images/contacts/linkedin.svg)
 }
 
 .contacts-item:before {
@@ -170,19 +172,19 @@ section:last-child {
 /*---Skills---------------------------------------------------------------*/
 
 .skills-item:nth-child(1):before {
-  background-image: url(/images/skills/html.svg)
+  background-image: url(./images/skills/html.svg)
 }
 
 .skills-item:nth-child(2):before {
-  background-image: url(/images/skills/css.svg)
+  background-image: url(./images/skills/css.svg)
 }
 
 .skills-item:nth-child(3):before {
-  background-image: url(/images/skills/js.svg)
+  background-image: url(./images/skills/js.svg)
 }
 
 .skills-item:nth-child(4):before {
-  background-image: url(/images/skills/github.svg)
+  background-image: url(./images/skills/github.svg)
 }
 
 .skills-item:before {
@@ -200,19 +202,19 @@ section:last-child {
 /*---Education---------------------------------------------------------------*/
 
 .education-item:nth-child(1):before{
-  background-image: url(/images/education/bsuir.jpg)
+  background-image: url(./images/education/bsuir.jpg)
 }
 
 .education-item:nth-child(2):before{
-  background-image: url(/images/education/udemy.png)
+  background-image: url(./images/education/udemy.png)
 }
 
 .education-item:nth-child(3):before{
-  background-image: url(/images/education/learnjs.png)
+  background-image: url(./images/education/learnjs.png)
 }
 
 .education-item:nth-child(4):before{
-  background-image: url(/images/education/rs-logo.jpg)
+  background-image: url(./images/education/rs-logo.jpg)
 }
 
 .education-item:before {
